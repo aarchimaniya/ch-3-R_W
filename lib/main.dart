@@ -5,6 +5,13 @@ void main() {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        appBar: AppBar(
+          leading: const Icon(Icons.menu),
+          title: const Text("Flutter App"),
+          centerTitle: true,
+          backgroundColor: Colors.red,
+          elevation: 0,
+        ),
         body: const Center(
           child: Text(
             "Red and White Multimedia Education\nIs One of The Best Web Design Institute In Gujrat",
